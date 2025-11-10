@@ -36,7 +36,7 @@ function setup() {
   // ORIGINAL VScale LOGIC
   if (width < height) {
     vScale = width / 30; // scale based on width
-    jhimg.resize(width, height);
+    jhimg.resize(width, height-100);
   } else {
     vScale = floor(height / 30); // scale based on height
     jhimg.resize(width, height);
